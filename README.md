@@ -95,9 +95,10 @@ print(pretty_format(ode_order, ode_coefficients, initial_conditions)
 
 On my machine this gives:
 ```
-ode_coefficients -> [1.         0.00507197 0.98715517]
-initial_conditions -> [-0.00203347  0.89098972]
-1.0 x f'' + 0.00507196929415693 x f' + 0.9871551720046665 x f ~= 0
-f'(x0) = -0.0020334719904200977
-f(x0) = 0.8909897208106901
+ode_coefficients -> [1.         0.01379077 1.0043634 ]
+initial_conditions -> [-0.04116298  0.95529709]
+1.0 x f'' + 0.013790765289065303 x f' + 1.004363395891228 x f ~= 0
+f'(x0) = -0.04116298217615213
+f(x0) = 0.9552970858076686
 ```
+![rhodes approximation of noisy cosinus](img/noisy_cosinus.png)
